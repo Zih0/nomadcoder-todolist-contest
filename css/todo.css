@@ -1,0 +1,37 @@
+.js-toDoList {
+	margin-left: 1rem;
+}
+
+.js-toDoList li {
+	display: flex;
+	justify-content: space-between;
+}
+
+.js-toDoList li span {
+	font-size: 0.9rem;
+	color: antiquewhite;
+}
+
+.js-toDoList li button {
+	cursor: pointer;
+}
+
+button {
+	border: none;
+	background: none;
+	font-size: 0.6rem;
+}
+
+.fa-html5 {
+	color: #ed6a5d;
+}
+
+.fa-css3 {
+	color: #339af0;
+	font-size: 0.8rem;
+}
+
+.fa-js {
+	color: #f5bd4f;
+	font-size: 0.9rem;
+}

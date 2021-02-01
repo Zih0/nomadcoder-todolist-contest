@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<script src="https://kit.fontawesome.com/5993050df4.js" crossorigin="anonymous"></script>
+		<title>>ToDominal</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header"><h1>>ToDominal</h1></header>
+
+			<div class="directory">
+				<nav class="status-bar">
+					<div class="status-bar__column">
+						<div class="l1 circle"></div>
+						<div class="l2 circle"></div>
+						<div class="l3 circle"></div>
+					</div>
+				</nav>
+				<div class="chev-bar">
+					<i class="fas fa-chevron-down"></i>
+					<span>toDo</span>
+				</div>
+				<ul class="js-toDoList"></ul>
+			</div>
+
+			<div class="terminal">
+				<nav class="status-bar">
+					<div class="status-bar__column">
+						<div class="l1 circle"></div>
+						<div class="l2 circle"></div>
+						<div class="l3 circle"></div>
+					</div>
+					<div class="status-bar__column"><span>js-contest@toDoList</span></div>
+					<div class="status-bar__column"></div>
+				</nav>
+
+				<main class="main-screen">
+					<form class="js-toDoForm">
+						<div class="prevcommand"></div>
+						<div class="path">
+							<div class="path-box">
+								<span>~/toDo> </span>
+							</div>
+							<input type="text" />
+						</div>
+					</form>
+				</main>
+			</div>
+
+			<div class="command">
+				<div class="command__column">
+					<p><code>$touch</code> :make to do</p>
+					<p><code>$rm</code> :remove to do</p>
+					<p><code>$clear</code> :clear terminal</p>
+				</div>
+				<div class="command__column">
+					<p>ex)<code>$touch todo.html</code></p>
+					<p>ex)<code>$rm todo.html</code></p>
+					<p>ex)<code>$clear</code></p>
+				</div>
+			</div>
+			<div class="time">
+				<div class="js-clock">
+					<h1>00:00</h1>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/todo.js"></script>
+		<script src="js/clock.js"></script>
+	</body>
+</html>
