@@ -26,7 +26,7 @@
 				<ul class="js-toDoList"></ul>
 			</div>
 
-			<div class="terminal">
+			<div class="terminal" onclick="getfocus()">
 				<nav class="status-bar">
 					<div class="status-bar__column">
 						<div class="l1 circle"></div>
@@ -44,7 +44,7 @@
 							<div class="path-box">
 								<span>~/toDo> </span>
 							</div>
-							<input type="text" />
+							<input class="input" type="text" />
 						</div>
 					</form>
 				</main>
@@ -57,9 +57,9 @@
 					<p><code>$clear</code> :clear terminal</p>
 				</div>
 				<div class="command__column">
-					<p>ex)<code>$touch todo.html</code></p>
-					<p>ex)<code>$rm todo.html</code></p>
-					<p>ex)<code>$clear</code></p>
+					<p>ex)<code>touch todo.html</code></p>
+					<p>ex)<code>rm todo.html</code></p>
+					<p>ex)<code>clear</code></p>
 				</div>
 			</div>
 			<div class="time">
