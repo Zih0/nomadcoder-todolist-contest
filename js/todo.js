@@ -120,8 +120,13 @@ function paintToDo(todo) {
 	saveToDos();
 }
 
+function getfocus() {
+	document.querySelector('.input').focus();
+}
+
 function init() {
 	loadToDos();
+
 	toDoForm.addEventListener('submit', handleSubmit);
 }
 
