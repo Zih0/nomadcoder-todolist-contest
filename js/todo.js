@@ -10,7 +10,8 @@ let toDos = [];
 function deleteToDo(event) {
 	if (typeof event === 'string') {
 		const spans = toDoList.querySelectorAll('li span');
-		spans.forEach((li) => {
+		const spansArr = Array.from(spans);
+		spansArr.every((li) => {
 			if (li.innerHTML === event) {
 				toDoList.removeChild(li.parentNode.parentNode);
 				toDos = toDos.filter((toDo) => {
