@@ -56,8 +56,17 @@ body {
 	align-items: center;
 	font-size: 3rem;
 	color: white;
+	gap: 1rem;
 }
 
+.header-icon {
+	width: 4rem;
+}
+
+.header h1 {
+	/* text-align: center; */
+	font-weight: 700;
+}
 .status-bar {
 	padding: 0.4rem;
 	background-color: #333333;
