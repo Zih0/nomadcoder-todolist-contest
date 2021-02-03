@@ -9,7 +9,10 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<header class="header"><h1>>ToDominal</h1></header>
+			<header class="header">
+				<img class="header-icon" src="img/iterm-icon.png" alt="" />
+				<h1>ToDominal</h1>
+			</header>
 
 			<div class="directory">
 				<nav class="status-bar">
@@ -19,7 +22,7 @@
 						<div class="l3 circle"></div>
 					</div>
 				</nav>
-				<div class="chev-bar">
+				<div class="chev-bar" onclick="handleChevIcon()">
 					<i class="fas fa-chevron-down"></i>
 					<span>toDo</span>
 				</div>
@@ -70,6 +73,7 @@
 		</div>
 
 		<script src="js/todo.js"></script>
+		<script src="js/responsive.js"></script>
 		<script src="js/clock.js"></script>
 	</body>
 </html>
