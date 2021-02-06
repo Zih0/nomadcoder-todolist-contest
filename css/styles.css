@@ -63,6 +63,11 @@ body {
 	/* text-align: center; */
 	font-weight: 700;
 }
+
+.header img {
+	width: 1em;
+}
+
 .status-bar {
 	padding: 0.4rem;
 	background-color: #333333;
