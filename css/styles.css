@@ -1,9 +1,9 @@
-@import 'reset.css';
-@import 'todo.css';
+@import "reset.css";
+@import "todo.css";
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-		'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+		"Open Sans", "Helvetica Neue", sans-serif;
 	height: 100vh;
 	width: 100vw;
 	background-color: black;
@@ -15,9 +15,9 @@ body {
 	width: 70%;
 	display: grid;
 	grid-template-areas:
-		'header header header header header'
-		'aside aside main main main'
-		'command command time time time';
+		"header header header header header"
+		"aside aside main main main"
+		"command command time time time";
 	grid-gap: 10px;
 	padding: 10px;
 }
@@ -183,4 +183,9 @@ code {
 .time h1 {
 	font-size: 5rem;
 	color: rgb(146, 141, 141);
+}
+
+.draggable {
+	touch-action: none;
+	user-select: none;
 }
