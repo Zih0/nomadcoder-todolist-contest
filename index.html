@@ -9,11 +9,12 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<header class="header">
-				<h1>>_ ToDominal</h1>
+			<header class="header draggable">
+				<img class="header-icon" src="img/iterm-icon.png" alt="" />
+				<h1>ToDominal</h1>
 			</header>
 
-			<div class="directory">
+			<div class="directory draggable">
 				<nav class="status-bar">
 					<div class="status-bar__column">
 						<div class="l1 circle"></div>
@@ -28,7 +29,7 @@
 				<ul class="js-toDoList"></ul>
 			</div>
 
-			<div class="terminal" onclick="getfocus()">
+			<div class="terminal draggable" onclick="getfocus()">
 				<nav class="status-bar">
 					<div class="status-bar__column">
 						<div class="l1 circle"></div>
@@ -71,6 +72,7 @@
 			</div>
 		</div>
 
+		<script src="https://unpkg.com/interactjs/dist/interact.min.js"></script>
 		<script src="js/todo.js"></script>
 		<script src="js/responsive.js"></script>
 		<script src="js/clock.js"></script>
