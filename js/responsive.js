@@ -22,6 +22,10 @@ interact(".draggable").draggable({
 			// endOnly: true,
 		}),
 	],
+	cursorChecker() {
+		// don't set a cursor for drag actions
+		return null;
+	},
 	// enable autoScroll
 	autoScroll: true,
 
