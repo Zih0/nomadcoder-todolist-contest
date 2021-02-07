@@ -18,8 +18,8 @@ interact(".draggable").draggable({
 	// keep the element within the area of it's parent
 	modifiers: [
 		interact.modifiers.restrictRect({
-			restriction: "parent",
-			endOnly: true,
+			// restriction: "parent",
+			// endOnly: true,
 		}),
 	],
 	// enable autoScroll
