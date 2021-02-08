@@ -1,6 +1,8 @@
 @import "reset.css";
 @import "todo.css";
-
+@import "header.css";
+@import "terminal.css";
+@import "status-bar.css";
 body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
 		"Open Sans", "Helvetica Neue", sans-serif;
@@ -20,147 +22,6 @@ body {
 		"command command time time time";
 	grid-gap: 10px;
 	padding: 10px;
-}
-
-.directory {
-	grid-area: aside;
-	background-color: #1e1e1e;
-	border-radius: 4px;
-	height: 30rem;
-	min-width: 150px;
-}
-
-.chev-bar {
-	background-color: #333333;
-	color: antiquewhite;
-	font-size: 0.8rem;
-	margin-bottom: 0.5rem;
-	padding: 0.2rem;
-}
-
-.terminal {
-	grid-area: main;
-	min-width: 400px;
-	height: 30rem;
-	display: flex;
-	flex-direction: column;
-	border-radius: 5px;
-	background-color: #1e1e1e;
-}
-
-.header {
-	grid-area: header;
-	display: flex;
-	height: 10rem;
-	justify-content: center;
-	align-items: center;
-	font-size: 3rem;
-	color: white;
-	gap: 1rem;
-}
-
-.header h1 {
-	/* text-align: center; */
-	font-weight: 700;
-}
-
-.header img {
-	width: 1em;
-}
-
-.status-bar {
-	padding: 0.4rem;
-	background-color: #333333;
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
-	border-bottom: 1px solid #1e1e1e;
-}
-
-.terminal .status-bar {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.status-bar__column {
-	display: flex;
-	width: 33%;
-}
-
-.status-bar__column:first-child {
-	gap: 0.3rem;
-}
-
-.status-bar__column:nth-child(2) {
-	display: flex;
-	justify-content: center;
-	font-size: 0.7rem;
-	color: antiquewhite;
-	text-align: center;
-}
-
-.circle {
-	width: 0.8rem;
-	height: 0.8rem;
-	border-radius: 50%;
-}
-.l1 {
-	background-color: #ed6a5d;
-}
-
-.l2 {
-	background-color: #f5bd4f;
-}
-
-.l3 {
-	background-color: #60c454;
-}
-
-.js-toDoForm input {
-	border: none;
-	background-color: #1e1e1e;
-	width: 90%;
-	color: antiquewhite;
-	outline-style: none;
-}
-
-.path {
-	display: flex;
-	align-items: center;
-	gap: 0.2rem;
-}
-
-.path span {
-	font-size: 0.8rem;
-	color: antiquewhite;
-}
-
-.path-box {
-	padding: 0 0.1rem;
-	background-color: #3566a2;
-}
-
-.command {
-	grid-area: command;
-	min-width: 360px;
-	background-color: #1e1e1e;
-	height: 10rem;
-	display: flex;
-	justify-content: space-around;
-	border-radius: 4px;
-}
-
-.command__column {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	margin-left: 1rem;
-}
-
-.command__column p {
-	color: #ed6a5d;
-	display: flex;
-	text-align: center;
 }
 
 code {
