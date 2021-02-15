@@ -1,0 +1,62 @@
+.terminal {
+	grid-area: main;
+	min-width: 400px;
+	height: 30rem;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	background-color: #1e1e1e;
+}
+
+.terminal .status-bar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.js-toDoForm input {
+	border: none;
+	background-color: #1e1e1e;
+	width: 90%;
+	color: antiquewhite;
+	outline-style: none;
+}
+
+.path {
+	display: flex;
+	align-items: center;
+	gap: 0.2rem;
+}
+
+.path span {
+	font-size: 0.8rem;
+	color: antiquewhite;
+}
+
+.path-box {
+	padding: 0 0.1rem;
+	background-color: #3566a2;
+}
+
+.command {
+	grid-area: command;
+	min-width: 360px;
+	background-color: #1e1e1e;
+	height: 10rem;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 4px;
+}
+
+.command__column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 1rem;
+}
+
+.command__column p {
+	color: #ed6a5d;
+	display: flex;
+	text-align: center;
+}
